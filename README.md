@@ -63,3 +63,10 @@ This command will start a new Docker container based on the `my-hello-world-app`
 7. Open your web browser and navigate to `http://localhost:8080`. You should see the text "Hello, World!" displayed in your browser.
 
 That's it! You have successfully run a "Hello World" application in Docker on port 8080.
+
+# google consoleshell
+
+```shell
+cloudshell get-web-preview-url -p 8080
+https://8080-cs-e68bf103-ce14-4aad-a108-115036b6575a.cs-asia-east1-jnrc.cloudshell.dev
+```
