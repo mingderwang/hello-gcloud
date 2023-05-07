@@ -68,5 +68,12 @@ That's it! You have successfully run a "Hello World" application in Docker on po
 
 ```shell
 cloudshell get-web-preview-url -p 8080
-https://8080-cs-e68bf103-ce14-4aad-a108-115036b6575a.cs-asia-east1-jnrc.cloudshell.dev
 ```
+[https://8080-cs-e68bf103-ce14-4aad-a108-115036b6575a.cs-asia-east1-jnrc.cloudshell.dev](https://8080-cs-e68bf103-ce14-4aad-a108-115036b6575a.cs-asia-east1-jnrc.cloudshell.dev)
+
+```shell
+docker ps
+CONTAINER ID   IMAGE                COMMAND                  CREATED         STATUS         PORTS                    NAMES
+c6ebb918dce2   my-hello-world-app   "docker-entrypoint.s…"   4 seconds ago   Up 3 seconds   0.0.0.0:8080->8080/tcp   silly_heisenberg
+```
+
